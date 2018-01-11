@@ -7,11 +7,11 @@
     }
 }*/
 
-for (x = "*"; x <= "*****"; x = x + "*"){
+/*for (x = "*"; x <= "*****"; x = x + "*"){
         console.log(x);
-    }
+    }*/
 
-/*for (x = 1; x <= 100; x++){
+for (x = 1; x <= 100; x++){
    
     if ((x % 3 ==0)&&(x % 5 ==0)) {    
         console.log("CodeMonkey");
@@ -25,4 +25,4 @@ for (x = "*"; x <= "*****"; x = x + "*"){
     else{
      console.log(x);
     }
-}*/
+}
