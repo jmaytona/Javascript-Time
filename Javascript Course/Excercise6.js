@@ -32,13 +32,13 @@ var ex1 = shapeArea(0,0,0,0);
 console.log(ex1); */
 
 function shapeArea(shape, x, y){
-    if (shape == "triangle"){
+    if (shape == "triangle" || shape == "Triangle"){
         return x * y /2 + " is the area of this Triangle";
     }
-    else if (shape == "circle") {
+    else if (shape == "circle" || shape =="Circle") {
         return (x * x) * Math.PI + " is the area of this Circle";
     }
-    else if (shape == "rectangle") {
+    else if (shape == "rectangle" || shape == "Rectangle") {
         return x * y + " is the area of this Rectangle";
     }
     else {
@@ -46,6 +46,7 @@ function shapeArea(shape, x, y){
     }
 }
 console.log(shapeArea("triangle",5,6));
+console.log(shapeArea("Triangle",5,6));
 console.log(shapeArea("circle",5));
 console.log(shapeArea("square",5,6));
 console.log(shapeArea("rectangle",9,9));
